@@ -1,5 +1,5 @@
 version: "3.7"
-name: "skiller-whale-core-react"
+name: "skillerwhalecorereact"
 services:
   sync:
     image: "ghcr.io/skiller-whale/learnersync"
@@ -16,7 +16,7 @@ services:
       - ./attendance_id:/app/sync/attendance_id:ro
     tty: true
     stdin_open: true
-  dev-server:
+  devserver:
     container_name: skiller-whale-core-react-dev # needed for running in Dev Containers in VSCode
     build:
       context: .
