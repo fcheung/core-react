@@ -16,7 +16,7 @@ services:
       - ./attendance_id:/app/sync/attendance_id:ro
     tty: true
     stdin_open: true
-  devserver:
+  dev-server:
     container_name: skiller-whale-core-react-dev # needed for running in Dev Containers in VSCode
     build:
       context: .
