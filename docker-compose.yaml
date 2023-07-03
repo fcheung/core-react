@@ -1,5 +1,5 @@
 version: "3.7"
-name: "skillerwhalecorereact"
+#name: "skillerwhalecorereact"
 services:
   sync:
     image: "ghcr.io/skiller-whale/learnersync"
